@@ -24,3 +24,15 @@ If you have any problem on SeetaFace Engine, please contact us by sending email 
 * [SeetaFace Detection](./FaceDetection/README.md)
 * [SeetaFace Alignment](./FaceAlignment/README.md)
 * [SeetaFace Identification](./FaceIdentification/README.md)
+
+
+### Usage
+mkdir -p build
+
+cd build
+
+cmake ..
+
+make
+
+Now, you are free to use! Change the code in main.cpp, you can use SeetaFace to do different task.
